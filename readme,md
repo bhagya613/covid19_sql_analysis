@@ -1,0 +1,112 @@
+# 🦠 COVID-19 Data Analysis & Visualization  
+
+## 📌 Project Overview  
+This project focuses on analyzing the global **COVID-19 pandemic** using **SQL (SQLite)** for data cleaning & querying and **Power BI** for visualization.  
+The project demonstrates how raw COVID-19 data can be transformed into meaningful insights, covering **cases, deaths, vaccinations, and government policies**.  
+
+The workflow includes:  
+1. Importing raw datasets.  
+2. Cleaning and normalizing data.  
+3. Designing SQL queries and views for analysis.  
+4. Creating interactive dashboards in Power BI.  
+5. Preparing a project report with findings.  
+
+---
+
+## 📂 Project Structure  
+│   ER_Diagram.png
+│
+├───data
+│       Covid19_cleaned_data.csv
+│       Covid19_raw_data.csv
+│
+├───database
+│       covid19.db
+│       covid19.db-journal
+│
+├───exports
+│       countries.csv
+│       covid_cases.csv
+│       policies.csv
+│       vaccinations.csv
+│
+├───report
+│       COVID19_report.pdf
+│
+├───sql
+│       analysis_queries.sql
+│       cleaning.sql
+│       create_tables.sql
+│       insert_data.sql
+│       views.sql
+│
+└───visuals
+        dashboard 1.pbix
+        dashboard 2.pbix
+
+
+---
+
+## 🛠️ Tools & Technologies  
+- **SQLite** → Database & query execution  
+- **SQL** → Data cleaning, normalization, and analysis  
+- **Power BI** → Interactive dashboards and data visualization  
+- **Excel** → Initial data cleaning & preprocessing  
+- **GitHub** → Version control and project sharing  
+
+---
+
+## 📊 Key Analysis Performed  
+- ✅ Top 10 countries by total cases and deaths  
+- ✅ Global daily cases vs deaths  
+- ✅ Continental impact of COVID-19  
+- ✅ Vaccination progress (% fully vaccinated)  
+- ✅ Booster shots leaders  
+- ✅ Deaths per million population  
+- ✅ Vaccinations vs cases correlation (scatter analysis)  
+- ✅ Year-wise cases & deaths by country  
+- ✅ Deaths by age factor 
+
+---
+
+## 📈 Visualizations in Power BI  
+- 📊 **Bar Charts** → Top affected countries by cases & deaths  
+- 📉 **Line Chart** → Global daily cases vs deaths  
+- 🌍 **Map** → Continent-wise spread of COVID-19  
+- ⚪ **Scatter Plot** → Vaccination % vs Cases per million  
+- 📌 **KPI Cards** → Fully vaccinated % and deaths per million  
+
+---
+
+## 🚀 Steps to Run the Project  
+1. Open `covid19.db` in **DB Browser for SQLite** (or any SQLite client).  
+2. Run the scripts inside `sql/` folder in order:  
+   - `create_tables.sql`  
+   - `insert_data.sql`  
+   - `cleaning.sql`  
+   - `analysis_queries.sql`  
+   - `views.sql`  
+3. Export results into CSV (already provided in `exports/`).  
+4. Open `dashboard 1.pbix` or `dashboard 2.pbix` in **Power BI Desktop**.  
+5. Refresh the dataset to explore interactive dashboards.  
+
+---
+
+## 📑 Report  
+The **final project report (`COVID19_report.pdf`)** includes:  
+- Introduction  
+- Abstract  
+- Tools Used  
+- Steps in Building the Project  
+- Conclusion  
+
+---
+
+## 📌 Conclusion  
+This project highlights how **SQL + Power BI** can be combined to analyze and visualize real-world health data.  
+The results provide critical insights into the **spread of COVID-19**, **vaccination progress**, and **policy effectiveness** across countries and continents.  
+Such an approach can be reused for other large-scale datasets to support **data-driven decision-making**.  
+
+---
+
+✨ *Developed as a Data Analytics Project using SQL & Power BI*  
